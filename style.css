@@ -1,0 +1,96 @@
+* {
+  /* outline: 2px solid black; */
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: lightgreen;
+  margin: 10px;
+  /* outline: 2px solid black; */
+  padding: 15px;
+  
+}
+
+.first_card {
+  background-color: lightblue;
+  margin: 12px;
+  /* padding: 35px; */
+  height: 70px;
+  outline: 2px solid darkblue;
+  display: flex;
+}
+
+.first_card_child {
+  background-color: orange;
+  /* height: 30px; */
+  margin: 12px;
+  padding: 10px;
+  flex: 1;
+  outline: 2px solid red;
+  display: flex;
+}
+
+.childs_child {
+  background-color: cyan;
+  outline: 2px solid black;
+  /* margin: 12px; */
+  flex: 1;
+}
+
+.lower_card {
+  padding: 6px 0 6px 0;
+  display: flex;
+}
+
+.second_card {
+  background-color: orange;
+  margin: 12px;
+  outline: 3px solid red;
+  width: 50%;
+  height: 200px;
+}
+
+.third_card {
+  /* background-color: orange; */
+  /* margin: 0 0px 0 8px; */
+  /* outline: 3px solid red; */
+  width: 50%;
+}
+
+.third_card_child {
+  background-color: orange;
+  outline: 3px solid red;
+  padding: 45px;
+  margin: 12px;
+}
+
+.children {
+  margin-top: 18px;
+}
+
+
+
+.lowest_card{
+  background-color: orange;
+  margin: 5px;
+  outline: 2px solid red;
+  padding: 18px;
+  display: flex;
+}
+
+.lowest_card_child{
+ background-color: cyan;
+ outline: 2px solid red; 
+ padding: 20px;
+ flex: 1;
+ margin: 12px;
+}
+
+.lowest_card_childrens{
+  background-color: white;
+  flex: .5;
+  margin: 12px 3px 12px 4px ;
+  /* padding: 0; */
+  outline: 2px solid black;
+}
