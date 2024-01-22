@@ -1,5 +1,5 @@
 * {
-  /* outline: 2px solid black; */
+  outline: 2px solid black;
   margin: 0;
   padding: 0;
 }
@@ -94,3 +94,91 @@
   /* padding: 0; */
   outline: 2px solid black;
 }
+
+.trail{
+  /* background-color: lightcoral; */
+  /* outline: 2px solid black; */
+  display: flex;
+  /* flex: 1; */
+  
+}
+
+/* .description{
+  dis
+} */
+
+
+.image{
+  display: inline-block;
+
+}
+
+.image_center{
+  text-align: center;
+}
+
+
+.para , .para2{
+  color:black;
+  padding-top: 5px;
+  line-height: 1.25;
+  text-align: center;
+  padding: 5px;
+}
+
+.para2{
+  margin-top:5px ;
+}
+
+
+.heading{
+  text-align: center;
+}
+
+
+.btn_main{
+  font-size: 18px;
+}
+
+.btn{
+  text-align: center;
+
+}
+
+.para_btn{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  margin: 12px;
+  font-size: 24px;
+  border-radius: 3px;
+  padding: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.514);
+}
+
+
+
+.card1 ,
+.card2 ,
+.card3,
+.card4,
+.card5,
+.card6 {
+  margin: 5px;
+  padding: 10px;
+  /* display: flex; */
+  outline: 2px solid black;
+}
+
+
+.card4{
+  display: block;
+}
+
